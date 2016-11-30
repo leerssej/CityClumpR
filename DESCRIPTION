@@ -1,0 +1,18 @@
+Title: CityClumpR
+Description: Gather Groups together by String Distance and Exclude if Not Same City
+  * Construct String Distance matrix
+  * Sample and determine threshold and assign: this set used 82.5% similarity
+  * Cluster all within threshold, then filter off where city is different
+  * Give counts to designate where ties existed
+  * Dump out into .csv for manual review and curation
+  * reload and reformat names accordingly
+URL: https://github.com/leerssej/CityClumpR
+BugReports: https://github.com/leerssej/CityClumpR/issues
+Depends:
+    R (>= 3.1.0)
+    magrittr
+    tidyverse
+    stringdist
+Authors@R: person("Jens", "Leerssen", email = "jens.leerssen@gmail.com", role = c("aut", "cre")leerssej
+Date: Updated 28 Nov 2016
+License: GPL-3
